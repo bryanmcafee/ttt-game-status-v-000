@@ -22,3 +22,7 @@ def won?(board)
     position_taken?(board, win[0])
   end
 end
+
+def full?(board)
+  board.all?{token} == "X" || token == "O"
+end
