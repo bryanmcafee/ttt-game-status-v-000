@@ -19,3 +19,5 @@ def won?(board)
   win_combinations.find do |win|
 
   end
+end
+
